@@ -17,3 +17,14 @@ Key highlights of MR.Q:
 - No need for planning or simulated trajectories.
 - Generalization across diverse RL benchmarks (continuous/discrete actions, vector/pixel observations).
 - Efficient training compared to model-based baselines.
+
+
+## How to run
+This is a simplified version of the Meta original implementation specifically for gymansium environments. The repo uses uv for package management, hence you can use the following steps to run the code:
+
+```bash
+uv venv
+source venv/bin/activate
+uv sync
+uv python main.py 
+```
